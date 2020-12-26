@@ -1,7 +1,7 @@
 import os
 import moviepy.editor as mp #pip install moviepy
 
-path = input("Enter the path of file :- ") #file path location
+path = input("Enter the path of file :- ") #file path location and file name with "/"
 
 videoclip = mp.VideoFileClip(path)
 audioclip = videoclip.audio
